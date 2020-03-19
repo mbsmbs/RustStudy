@@ -72,6 +72,8 @@ fn main() {
 }
 ```
 
+- Pretty printing with {:#?}
+
 ```
 #[derive(Debug)]
 struct Person<'a> {
