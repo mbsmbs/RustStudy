@@ -20,3 +20,11 @@ fn main()
     println!("Hello World!!");
 }
 ```
+
+# 2. Comments
+```
+// This is a single line comment
+/* This is 
+a multiple lines
+comments */
+```
