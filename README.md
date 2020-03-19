@@ -50,3 +50,46 @@ println!("{number:>0width$}", number=1, width=6);   // 000001
 
 println!("My name is {0}, {1} {0}", "Bond", "James");
 ```
+
+# 4. Debug
+```
+#[derive(Debug)]
+struct Structure(i32);
+
+#[derive(Debug)]
+struct Deep(Structure);
+
+fn main() {
+    println!("{:?} months in a year.", 12);                     // {:?} similar {} // 12 months in a year.
+    println!("{1:?} {0:?} is the {actor:?} name.",              
+             "Slater",
+             "Christian",
+             actor="actor's");                                  // "Christian" "Slater" is the "actor\'s" name.
+
+    println!("Now {:?} will print!", Structure(3));             // Now Structure(3) will print!
+    
+    println!("Now {:?} will print!", Deep(Structure(7)));       // Now Deep(Structure(7)) will print!
+}
+```
+
+```
+#[derive(Debug)]
+struct Person<'a> {
+    name: &'a str,
+    age: u8
+}
+
+fn main() {
+    let name = "Peter";
+    let age = 27;
+    let peter = Person { name, age };
+
+    // Pretty print
+    println!("{:#?}", peter);
+}
+
+// Person {
+    name: "Peter",
+    age: 27,
+   }
+```
