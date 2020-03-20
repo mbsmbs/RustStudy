@@ -51,7 +51,7 @@ println!("{number:>0width$}", number=1, width=6);   // 000001
 println!("My name is {0}, {1} {0}", "Bond", "James");
 ```
 
-## 3-1. Formatting-Debug
+## 3-1. Formatted Print - Debug
 ```
 #[derive(Debug)]
 struct Structure(i32);
