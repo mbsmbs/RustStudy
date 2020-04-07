@@ -14,10 +14,7 @@ $ ./filename
 
 # Cargo
   - Rust's Build System & Package Manager
-  - To check version
-```
-cargo --version
-```
+  - [Rust Cargo](https://doc.rust-lang.org/book/ch01-03-hello-cargo.html)
 
 
 
