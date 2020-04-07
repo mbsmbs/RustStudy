@@ -13,8 +13,7 @@ $ ./filename
 ```
 
 # Cargo
-  - Rust's Build System & Package Manager
-  - [Rust Cargo](https://doc.rust-lang.org/book/ch01-03-hello-cargo.html)
+  - [Rust's Build System & Package Manager](https://doc.rust-lang.org/book/ch01-03-hello-cargo.html)
 
 
 
