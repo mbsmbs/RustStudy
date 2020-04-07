@@ -12,6 +12,15 @@ Then execute :
 $ ./filename
 ```
 
+# Cargo
+  - Rust's Build System & Package Manager
+  - To check version
+```
+cargo --version
+```
+
+
+
 # 1. Hello World
 
 ```
