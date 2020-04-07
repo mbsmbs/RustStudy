@@ -100,3 +100,10 @@ fn main() {
     age: 27,
    }
 ```
+
+# 4. Variables and Data types
+  - In Rust, variables are immutable by default.
+  ```
+  let foo = 5       // immutable
+  let mut bar = 5   // mutable : just add 'mut'
+  ```
