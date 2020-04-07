@@ -107,3 +107,9 @@ fn main() {
   let foo = 5       // immutable
   let mut bar = 5   // mutable : just add 'mut'
   ```
+  - [Rust Data Types](https://doc.rust-lang.org/book/ch03-02-data-types.html)
+  ```
+  let x: u64 = 15;      // unsigned integer 64
+  let f: f32 = 5.6;     // float 32
+  let b: bool = false;  // boolean
+  ```
