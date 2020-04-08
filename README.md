@@ -114,7 +114,7 @@ fn main() {
   let b: bool = false;  // boolean
   ```
 
-# 5. Control Flow : If...else
+# 5. If...else
 ```
 if condition {  // no '()' for condition
     some code 
@@ -124,3 +124,21 @@ if condition {  // no '()' for condition
     some code
 }
 ```
+
+# 6. Loop
+  ## A. Infinite Loop
+  ```
+  ley mut n = 0;
+  
+  loop{
+    n += 1;
+    
+    if n == 7 {
+      continue;
+    }
+    
+    if n > 10 {
+      break;
+    }
+  }
+  ```
