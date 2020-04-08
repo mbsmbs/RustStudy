@@ -139,3 +139,10 @@ if condition {  // no '()' for condition
       some code;
   }
   ```
+
+  ## C. For Loop
+  ```
+  for i in 1..11{     // 1..11 ---> like range
+      some code;
+  }
+  ```
