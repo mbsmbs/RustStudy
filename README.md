@@ -117,28 +117,25 @@ fn main() {
 # 5. If...else
 ```
 if condition {  // no '()' for condition
-    some code 
+    some code;
 } else if condition {
-    some code
+    some code;
 } else {
-    some code
+    some code;
 }
 ```
 
 # 6. Loop
   ## A. Infinite Loop
   ```
-  ley mut n = 0;
-  
   loop{
-    n += 1;
-    
-    if n == 7 {
-      continue;
-    }
-    
-    if n > 10 {
-      break;
-    }
+    some code;
+  }
+  ```
+
+  ## B. While Loop
+  ```
+  while condition {
+      some code;
   }
   ```
