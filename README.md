@@ -113,3 +113,14 @@ fn main() {
   let f: f32 = 5.6;     // float 32
   let b: bool = false;  // boolean
   ```
+
+# 5. Control Flow : If...else
+```
+if condition {  // no '()' for condition
+    some code 
+} else if condition {
+    some code
+} else {
+    some code
+}
+```
