@@ -146,3 +146,10 @@ if condition {  // no '()' for condition
       some code;
   }
   ```
+
+# 7. Enum Types
+```
+enum some_enum_name{
+    
+}
+```
